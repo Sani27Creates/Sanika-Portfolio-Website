@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4167d65855.js" crossorigin="anonymous"></script>
+</head>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificates">Certifications</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer and Prompt Engineer</p>
+                <h1>Hi, I'm <span>Sanika Patil</span><br>from Pen</h1>
+            </div>
+        </div>
+    </div>
+<!------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Sanika Patil, a passionate full-stack web developer and prompt engineer currently in my fourth year of pursuing a Bachelor's degree in Computer Engineering. With a strong foundation in both frontend and backend technologies, including Java, HTML, CSS, JavaScript, and Node.js, I have developed several personal projects that showcase my skills. I am eager to apply my knowledge in a professional setting and contribute to innovative projects. In my free time, I enjoy coding, drawing, and reading books.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('internships')">Internships</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C, C++, Java</li>
+                            <li><span>Frontend</span><br>HTML, CSS, JS, ReactJs</li>
+                            <li><span>Backend</span><br>NodeJs</li>
+                            <li><span>Database</span><br>MongoDB Atlas</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="internships">
+                        <ul>
+                            <li><span>16<sup>th</sup> June, 2023 to 17<sup>th</sup> July, 2023</span><br>Reliance Industries Limited, Nagothane<br>Activity Checklist Management System</li>
+                            <li><span>24<sup>th</sup> June, 2024 to 08<sup>th</sup> July, 2024</span><br>JSW Steel Limited, Dolvi<br>Shopper E-Commerce Website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Bachelor's of Computer Engineering<br>Pillai HOC College of Engineering and Technology, Rasayani (Mumbai University)<br>8.81 CGPA</li>
+                            <li><span>2021</span><br>HSC(Science)<br>SVM College, Pen<br>91.33%</li>
+                            <li><span>2019</span><br>SSC<br>Carmel High School, Pen<br>81%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------certifications------->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+          <div class="certificates-list">
+              <div>
+                <i class="fa-solid fa-c"></i>
+                <h2>C Programming Language</h2>
+                <p>Morya Computers(MCITER)</p><br>
+                <a href="https://drive.google.com/file/d/1AclXkHpHXfR3V6L5jySgR0i7gtPXsiw7/view?usp=drive_link" target="_blank"><button>View Certificate</button></a>
+              </div>
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>C++ Programming Language</h2>
+                <p>Morya Computers(MCITER)</p><br>
+                <a href="https://drive.google.com/file/d/1AVLj5C3D7iOYci0IHwGXN43LVGnoLCH3/view?usp=drive_link" target="_blank"><button>View Certificate</button></a>
+              </div>
+              <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Programming Language</h2>
+                <p>Disha Computer Institude</p><br>
+                <a href="https://drive.google.com/file/d/1VvjLFz64QptuhRhgwxbzK_ua98Eq0l2g/view?usp=drive_link" target="_blank"><button>View Certificate</button></a>
+              </div> 
+              <div>
+                <i class="fa-regular fa-file-code"></i>
+                <h2>HTML,CSS,JS</h2>
+                <p>LearnVern</p><br>
+                <a href="https://drive.google.com/drive/folders/1H6WqbrqKGl34LGUEW0x3soZS9UzonDlN?usp=drive_link" target="_blank"><button>View Certificate</button></a>
+              </div> 
+              <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Prompt Engineer</h2>
+                <p>Infosys Springboard</p><br>
+                <a href="https://drive.google.com/file/d/1fjBtXErXAb5YdOoPfchqZoi7CZVevkuy/view?usp=drive_link" target="_blank"><button>View Certificate</button></a>
+              </div> 
+              <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>React Js</h2>
+                <p>LearnVern</p><br>
+                <a href="https://drive.google.com/file/d/1abfyekPtIMWvRhmaDYve4sRIF-n3IZKh/view?usp=drive_link" target="_blank"><button>View Certificate</button></a>
+              </div> 
+         </div>
+    </div>
+</div>
+<!--------projects--------->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/prj-1.png" alt="">
+                <div class="layer">
+                    <h3>Typing Speed Test</h3>
+                    <p>A typing speed test is a website used for improving the typing speed. Here we get the score of time left, mistakes, WPM and CPM.</p>
+                    <a href="https://typingspeedtestweb.netlify.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/prj-2.png" alt="">
+                <div class="layer">
+                    <h3>Quote Generator</h3>
+                    <p>Quote generator websites offer inspirational or business-oriented quotations at the user's request.</p>
+                    <a href="https://quotegeneratorweb-app.netlify.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/prj-3.png" alt="">
+                <div class="layer">
+                    <h3>To-Do List</h3>
+                    <p>To-do list websites help you organize and manage your tasks by letting you create, prioritize, and track them digitally.</p>
+                    <a href="https://to-dolistweb.netlify.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/prj-4.png" alt="">
+                <div class="layer">
+                    <h3>Text to Speech Converter</h3>
+                    <p>Text to speech converter websites transform written text into spoken audio using artificial intelligence.</p>
+                    <a href="https://texttospeechconverterwebsite.netlify.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/prj-5.png" alt="">
+                <div class="layer">
+                    <h3>QR Code Generator</h3>
+                    <p>
+                        QR code generator websites let you create custom QR codes that link to websites, vCards, or other data with a quick scan.</p>
+                    <a href="https://qrcodegeneratorwebsite.netlify.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/prj-6.png" alt="">
+                <div class="layer">
+                    <h3>College Website</h3>
+                    <p>This website is made using React Js. It has various sections like programs, college information, students reviews and contact information.</p>
+                    <a href="https://pillaihocwebsite.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> sanikabhagwanpatil@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9307207466</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sanika-patil-646a371b4" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_sanu_2712?igsh=MWQzcnF4YnJkY2J2cQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/Sani27Creates?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sanika Patil</p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyp8BnsVVZTMkmsAoi1Xr__DnJPr-znmblSIZvyR5zBEFTDx0Jkt0HIHBSwmHGCVCLiaA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successfully !"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },50000)
+                form.reset()
+            })
+            .catch(error => console.error('Error !', error.message))
+        })
+      </script>
+</body>
+</html>
